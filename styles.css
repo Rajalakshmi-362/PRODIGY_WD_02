@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: sandybrown;
+    margin: 0;
+    font-family: Arial, sans-serif;
+   
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20240102/pngtree-hd-texture-background-with-vintage-golden-wall-clock-image_13865592.png);
+    background-size: cover ;
+}
+
+
+
+.h1{
+text-align: center;
+}
+
+.stopwatch {
+     position: absolute;
+        top: 50%; /* Center vertically */
+        left: 0; /* Align to the right side */
+        margin-right: 20px; /* Adjust space between the image and the game */
+        margin-left: 150px;
+        transform: translateY(-50%); /* Adjust for vertical centering */
+        width: 450px;
+        height: 450px;
+        text-align: center;
+        border-radius: 50%;
+        box-shadow: 6px 6px 10px #2879a8, inset 6px 6px 10px #ffff0f;
+        background-color:rgb(240, 181, 129);
+
+       
+    }
+    
+
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+    margin-top: 65px;
+    color:black;
+    font-size: 58px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+
+      cursor: pointer;
+        margin: 70px 5px 0;
+        width: 90px;
+        height: 35px;
+        background: transparent;
+        color: black;
+        border: 4px solid #3adb78;
+        border-radius: 25px;
+        letter-spacing: 2px;
+        transition: all .4s;
+}
+
+#laps {
+    list-style-type: none;
+    padding: 0;
+}
+
+#laps li {
+    padding: 5px 0;
+    border-bottom: 1px solid #196446;
+}
